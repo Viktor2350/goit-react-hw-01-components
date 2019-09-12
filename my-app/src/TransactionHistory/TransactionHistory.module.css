@@ -1,0 +1,21 @@
+.transactionHistory {
+  width: 872px;
+  height: 300px;
+}
+
+.name {
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  padding-left: 116px;
+  background-color: #00bcd4;
+  text-transform: uppercase;
+}
+
+.table {
+  height: 50px;
+  font-size: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #ecf2f3;
+}
