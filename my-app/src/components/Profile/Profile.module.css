@@ -1,13 +1,17 @@
 .profile {
-  min-width: 428px;
-  height: 502px;
+  min-width: 1200px;
+  height: 504px;
   background-color: #e7ecf2;
 }
 .description {
   width: 246px;
-  height: 332px;
+  height: 256px;
   background-color: #fff;
-  margin-left: 552px;
+  margin: 0 auto;
+}
+
+.item {
+  padding-top: 88px;
 }
 
 .avatar {
@@ -34,12 +38,13 @@
 }
 
 .stats {
+  margin: 0 auto;
+  padding: 0;
+  width: 246px;
   text-align: center;
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 0;
-  padding: 0;
 }
 
 .markup {

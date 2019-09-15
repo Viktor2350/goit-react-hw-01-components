@@ -5,7 +5,9 @@ import styles from './PricingPlan.module.css';
 const PricingItem = ({ label, icon, capacity, price, description }) => {
   return (
     <div className="pricing-item">
-      <i className={styles.icon} style={{ content: `url(${icon})` }} />
+      <div className={styles.divIcon}>
+        <i className={styles.icon} style={{ content: `url(${icon})` }} />
+      </div>
       <h2 className={styles.label}>{label}</h2>
       <p className={styles.capacity}>{capacity}</p>
       <p className={styles.description}>{description}</p>
